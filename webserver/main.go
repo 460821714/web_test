@@ -7,7 +7,7 @@ import (
 )
 
 func appHandler(w http.ResponseWriter, req *http.Request) {
-	io.WriteString(w, "<h1>hello,有一点点奇怪.name is Jake.add Testing.what happened!</h1>")
+	io.WriteString(w, "<h1>hello,有一点点奇怪啊.name is Jake.add Testing.what happened!</h1>")
 }
 
 func main() {
