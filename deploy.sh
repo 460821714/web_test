@@ -4,5 +4,6 @@ cd ~/../myproject/web_test
 git pull https://github.com/460821714/web_test.git
 git checkout .
 git pull
+chmod +x webserver/webserver
 cd webserver
 ./webserver &
